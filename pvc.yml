@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 matedata:
   name: todo-pvc-data
-  namespace: mateapp
+  namespace: todoapp
 spec:
  volumeName: todo-pv-data
  accessModes:
