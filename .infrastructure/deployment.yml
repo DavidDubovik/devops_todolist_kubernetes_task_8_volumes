@@ -65,3 +65,9 @@ spec:
         - name: data
           persistentVolumeClaim:
             claimName: todo-pvc-data
+        - name: app-secret-volume
+          secret:
+            secretName: app-secret
+        - name: app-config-volume
+          configMap:
+            name: app-config
